@@ -1,18 +1,58 @@
 # GIT Commands
 
-This repository contains list of common and useful commands used in git bash.
+This repository contains list of common and useful commands used in git system.
 
-### &#9780; Overview:
-1. [Introduction](#-introduction)
-2. [Initialize Repository](#-initialize-repository)
-3. [Add Files to Stagging Area](#-add-files-to-stagging-area)
-. [Configurations](#-configurations)
-. [Contribution](#-contribution)
-. [Disclaimer](#-disclaimer)
-. [License](#-license)
-. [Contact](#-contact)
+## &#9780; Overview:
+1. [Introduction](./docs/introduction.md)
+	- [Features of git](#-features-of-git)
+	- [Associated Files](#-associated-files)
+2. [Basic Repository Operations](#-basic-repository-operations)
+	- [Initialize Repository](#-initialize-repository)
+	- [Stagging Area](#-stagging-area)
+	- [Commit Changes](#-commit-changes)
+	- [Check Status](#-check-status)
+	- [View Commit Log](#-view-commit-log)
+3. [Branch Operations](#-branch-operations)
+	- [Create Branch](#-create-branch)
+	- [Switch Branch](#-swtich-branch)
+	- [Branching Strategies](#-branching-strategies)
+		- Feature Branches
+		- Gitflow
+	- [Merge Branch](#-merge-branch)
+	- [Merge Conflicts](#-merge-conflicts)
+	- [Rebase](#-rebase)
+4. [Remote Repository](#-remote-repository)
+	- [Add Remote](#-add-remote)
+	- [Fetch Remote](#-fetch-remote)
+	- [Pull Remote](#-pull-remote)
+	- [Push Change](#-push-changes)
+	- [Fork Repository](#-fork-repository)
+5. [Git Objects](#-git-objects)
+	- Blobs
+	- Trees
+	- Commits
+6. [Git Reset](#-git-reset)
+	- Hard
+	- Soft
+	- Mixed Resets	
+7. [Advanced Commands](#-advanced-commands)
+	- Git Blame
+	- Git Cherry-Pick
+	- Git Hooks
+	- Git Reflog
+	- Git Revert
+	- Git Stash
+	- Submodules
+	- Subtrees
+	- Git internals
+	- Working with large repository
+8. [Configurations](#-configurations)
+9. [Contribution](#-contribution)
+10. [Disclaimer](#-disclaimer)
+11. [License](#-license)
+12. [Contact](#-contact)
 
-### &#10022; Introduction:
+## &#10022; Introduction:
 
 
 
