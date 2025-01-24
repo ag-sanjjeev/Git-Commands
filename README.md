@@ -4,8 +4,8 @@ This repository contains list of common and useful commands used in git system.
 
 ## &#9780; Overview:
 1. [Introduction](./docs/introduction.md)
-	- [Features of git](#-features-of-git)
-	- [Associated Files](#-associated-files)
+	- [Need for git](./docs/introduction.md#-need-for-git)
+	- [Associated Files](./docs/introduction.md#-associated-files)
 2. [Basic Repository Operations](#-basic-repository-operations)
 	- [Initialize Repository](#-initialize-repository)
 	- [Stagging Area](#-stagging-area)
