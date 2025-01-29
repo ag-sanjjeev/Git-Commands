@@ -29,10 +29,11 @@ This repository contains list of common and useful commands used in git system.
 	- [Clone Repository](./docs/remote-repository.md#-clone-repository)
 	- [Push Remote](./docs/remote-repository.md#-push-remote)
 	- [Fork Repository](./docs/remote-repository.md#-fork-repository)
-5. [Git Objects](#-git-objects)
-	- Blobs
-	- Trees
-	- Commits
+5. [Git Objects](./docs/git-objects.md)
+	- [Blobs](./docs/git-objects.md#-blobs)
+	- [Trees](./docs/git-objects.md#-trees)
+	- [Commits](./docs/git-objects.md#-commits)
+	- [Relation Between Objects](./docs/git-objects.md#-relation-between-objects)
 6. [Git Reset](#-git-reset)
 	- Hard
 	- Soft

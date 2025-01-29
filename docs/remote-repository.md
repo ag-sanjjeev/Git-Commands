@@ -225,6 +225,6 @@ It allows others to contribute to the project without directly modifying the ori
 ---
 [&#8682; To Top](#-remote-repository)
 
-[&#10094; Previous Topic](./branch-operations.md) &emsp; [Next Topic &#10095;](./git-object.md)
+[&#10094; Previous Topic](./branch-operations.md) &emsp; [Next Topic &#10095;](./git-objects.md)
 
 [&#8962; Goto Home Page](../README.md)
