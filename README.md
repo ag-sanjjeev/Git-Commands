@@ -55,23 +55,16 @@ This repository contains list of common and useful commands used in git system.
 11. [License](#-license)
 12. [Contact](#-contact)
 
-## &#10022; Introduction:
-
-
-
 ## &#9873; Contribution
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. Make sure to follow the existing coding style and provide clear documentation for your changes.
 
 ## &#9873; Disclaimer
-This is not to be consider as official documentation. It is mainly provided for educational purpose. For better understanding, consult with expert and double check with [Official GIT Documentation](#), Before proceed in real-time implementations.
+This is not to be consider as official documentation. It is mainly provided for educational purpose. For better understanding, consult with expert and double check with [Official GIT Documentation](https://git-scm.com/doc), Before proceed in real-time implementations.
 
 ## &#9873; License
 This reference licensed under the [MIT license](LICENSE). Feel free to use, modify, and distribute it as per the terms of the license.
 
 ## &#9873; Contact
 If you have any questions or need further assistance, please feel free to reach me by referring [My Github Profile](https://github.com/ag-sanjjeev/)
-
----
-[&#8682; To Top](#git-commands)
 
 Thanks for reviewing this reference notes!
