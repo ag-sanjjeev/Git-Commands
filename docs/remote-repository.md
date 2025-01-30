@@ -215,6 +215,25 @@ It will sent only main branch commits and change to remote.
 git push origin main
 ```
 
+**Force Push:**
+
+If the push operation to the remote is aborted due to certain issues. Then use push command with force.
+
+Use with **Caution!**
+
+Forcing a push can overwrite others' work on the remote repository. It can't be undone.
+
+*Example:*
+
+```bash
+git push --force-with-lease origin develop
+```
+or 
+
+```bash
+git push --force origin develop
+```  
+
 ### &#10022; Fork Repository:
 
 It is done on remote repository and associated account. It creates a copy of a remote repository under your own account.
