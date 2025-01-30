@@ -29,34 +29,38 @@ This repository contains list of common and useful commands used in git system.
 	- [Clone Repository](./docs/remote-repository.md#-clone-repository)
 	- [Push Remote](./docs/remote-repository.md#-push-remote)
 	- [Fork Repository](./docs/remote-repository.md#-fork-repository)
-5. [Git Objects](./docs/git-objects.md)
+5. [Git Tags](./docs/git-tags.md)
+	- [Types of Tags](./docs/git-tags.md#-types-of-tags)
+	- [Creating Tags](./docs/git-tags.md#-creating-tags)
+	- [Setting a Tag](./docs/git-tags.md#-setting-a-tag)
+	- [Checkout a Tag](./docs/git-tags.md#-checkout-a-tag)
+	- [Pushing a Tag](./docs/git-tags.md#-pushing-a-tag)
+	- [Deleting a Tag](./docs/git-tags.md#-deleting-a-tag)
+	- [Listing Tags](./docs/git-tags.md#-listing-tags)
+	- [Show Tag Information](./docs/git-tags.md#-show-tag-information)
+6. [Git Objects](./docs/git-objects.md)
 	- [Blobs](./docs/git-objects.md#-blobs)
 	- [Trees](./docs/git-objects.md#-trees)
 	- [Commits](./docs/git-objects.md#-commits)
 	- [Relation Between Objects](./docs/git-objects.md#-relation-between-objects)
-6. [Git Reset](./docs/git-reset.md)
+7. [Git Reset](./docs/git-reset.md)
 	- [Hard Reset](./docs/git-reset.md#-hard-reset)
 	- [Soft Reset](./docs/git-reset.md#-soft-reset)
 	- [Mixed Resets](./docs/git-reset.md#-mixed-resets)
 	- [Resets with Merge](./docs/git-reset.md#-resets-with-merge)
 	- [Resets with Keep](./docs/git-reset.md#-resets-with-keep)
 	- [Allowed Commit References](./docs/git-reset.md#-allowed-commit-references)
-7. [Advanced Commands](#-advanced-commands)
+8. [Git Hooks](./docs/git-hooks.md)
+9. [Git Submodules](./docs/git-submodules.md)
+10. [Git Subtrees](./docs/git-subtrees.md)
+11. [Large Repository](./docs/large-repository.md)
+12. [Advanced Commands](./docs/advanced-commands.md)
 	- Git Blame
 	- Git Cherry-Pick
-	- Git Hooks
 	- Git Reflog
 	- Git Revert
 	- Git Stash
-	- Submodules
-	- Subtrees
-	- Git internals
-	- Working with large repository
-8. [Configurations](#-configurations)
-9. [Contribution](#-contribution)
-10. [Disclaimer](#-disclaimer)
-11. [License](#-license)
-12. [Contact](#-contact)
+13. [Configurations](#-configurations)
 
 ## &#9873; Contribution
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. Make sure to follow the existing coding style and provide clear documentation for your changes.

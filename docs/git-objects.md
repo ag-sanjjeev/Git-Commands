@@ -31,6 +31,6 @@ Commits is a snapshots of the project at a specific point of time. A commit obje
 ---
 [&#8682; To Top](#-git-objects)
 
-[&#10094; Previous Topic](./remote-repository.md) &emsp; [Next Topic &#10095;](./git-reset.md)
+[&#10094; Previous Topic](./git-tags.md) &emsp; [Next Topic &#10095;](./git-reset.md)
 
 [&#8962; Goto Home Page](../README.md)
