@@ -34,10 +34,13 @@ This repository contains list of common and useful commands used in git system.
 	- [Trees](./docs/git-objects.md#-trees)
 	- [Commits](./docs/git-objects.md#-commits)
 	- [Relation Between Objects](./docs/git-objects.md#-relation-between-objects)
-6. [Git Reset](#-git-reset)
-	- Hard
-	- Soft
-	- Mixed Resets	
+6. [Git Reset](./docs/git-reset.md)
+	- [Hard Reset](./docs/git-reset.md#-hard-reset)
+	- [Soft Reset](./docs/git-reset.md#-soft-reset)
+	- [Mixed Resets](./docs/git-reset.md#-mixed-resets)
+	- [Resets with Merge](./docs/git-reset.md#-resets-with-merge)
+	- [Resets with Keep](./docs/git-reset.md#-resets-with-keep)
+	- [Allowed Commit References](./docs/git-reset.md#-allowed-commit-references)
 7. [Advanced Commands](#-advanced-commands)
 	- Git Blame
 	- Git Cherry-Pick
