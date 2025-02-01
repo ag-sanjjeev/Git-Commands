@@ -8,6 +8,7 @@ It describes about basic Git operation from creating an empty repository to view
 3. [Commit Changes](#-commit-changes)
 4. [Check Status](#-check-status)
 5. [View Commit Log](#-view-commit-log)
+6. [Checkout](#-checkout)
 
 ### &#10022; Initialize Repository:
 
@@ -150,6 +151,20 @@ git shortlog
 
 ```bash
 git shortlog -s 
+```
+
+### &#10022; Checkout:
+
+Git give possibilities of move to specific commit history by checkout command. It requires commit hash or tag name to move to that reference.
+
+*Syntax:*
+
+```bash
+git checkout <commit_hash>
+```
+
+```bash
+git checkout <tag_name>
 ```
 
 ---

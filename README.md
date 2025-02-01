@@ -12,6 +12,7 @@ This repository contains list of common and useful commands used in git system.
 	- [Commit Changes](./docs/basic-repository-operations.md#-commit-changes)
 	- [Check Status](./docs/basic-repository-operations.md#-check-status)
 	- [View Commit Log](./docs/basic-repository-operations.md#-view-commit-log)
+	- [Checkout](./docs/basic-repository-operations.md#-checkout)
 3. [Branch Operations](./docs/branch-operations.md)
 	- [Create Branch](./docs/branch-operations.md#-create-branch)
 	- [Switch Branch](./docs/branch-operations.md#-switch-branch)
