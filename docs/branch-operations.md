@@ -4,14 +4,16 @@ It describes about basic Git operation from creating an empty repository to view
 
 ### &#9780; Overview:
 1. [Create Branch](#-create-branch)
-2. [Switch Branch](#-switch-branch)
-3. [Move or Rename Branch](#-move-or-rename-branch)
-4. [Branching Strategies](#-branching-strategies)
+2. [List Branches](#-list-branches)
+3. [Switch Branch](#-switch-branch)
+4. [Move or Rename Branch](#-move-or-rename-branch)
+5. [Branching Strategies](#-branching-strategies)
 	- [Feature Branches](#-feature-branches)
 	- [Gitflow](#-gitflow)
-5. [Merge Branch](#-merge-branch)
-6. [Merge Conflicts](#-merge-conflicts)
-7. [Rebase](#-rebase)
+6. [Merge Branch](#-merge-branch)
+7. [Merge Conflicts](#-merge-conflicts)
+8. [Rebase](#-rebase)
+9. [Delete a Branch](#-delete-a-branch)
 
 ### &#10022; Create Branch:
 
@@ -29,6 +31,42 @@ git branch <branch_name>
 
 ```bash
 git branch feature/new-login
+```
+
+### &#10022; List Branches:
+
+List all local branches in the repository. This will tells current checked-out branch will be marked with an asterisk (\*).
+
+*Example:*
+
+```bash
+git branch 
+```
+
+*Alternative:*
+
+```bash
+git branch --list
+```
+
+**To list branches with latest commit on each branch:**
+
+```bash
+git branch -v
+```
+
+**To list all local and remote branches:**
+
+This command will display all local branches and all remote origin branches prefixed with `remotes/<origin-name>/`.
+
+```bash
+git branch -a 
+```
+
+**To list only remote branches:**
+
+```bash
+git branch -r 
 ```
 
 ### &#10022; Switch Branch:
@@ -165,6 +203,40 @@ git rebase feature/new-login
 ```
 
 **WARNING:** Avoid `rebase` command on public branches. Because, those branches that other developers might be working on.
+
+### &#10022; Delete a Branch:
+
+To delete a specific branch from the local repository, which is fully merged to upstream.
+
+*Syntax:*
+
+```bash
+git branch -d <branch_name>
+```
+
+If the branch has changes with unmerged, then Git will refuse to delete it. To delete a branch by force, that is irrespective of merge status. 
+
+*Syntax:*
+
+```bash
+git branch -D <branch_name>
+```
+
+This is short form of following command:
+
+```bash
+git branch -d -f <branch-name>
+```
+
+**Caution:** Deleting a branch by force can lead to data loss.
+
+**Delete Remote Branch:**
+
+*Syntax:*
+
+```bash
+git push origin --delete <branch_name>
+```
 
 ---
 [&#8682; To Top](#-branch-operations)
