@@ -75,11 +75,11 @@ This repository contains list of common and useful commands used in git system.
 	- [Comparison](./docs/git-subtrees.md#-comparison)
 11. [Large Repository](./docs/large-repository.md)
 12. [Advanced Commands](./docs/advanced-commands.md)
-	- Git Blame
-	- Git Cherry-Pick
-	- Git Reflog
-	- Git Revert
-	- Git Stash
+	- [Git Blame](./docs/advanced-commands.md#-git-blame)
+	- [Git Cherry-Pick](./docs/advanced-commands.md#-git-cherry-pick)
+	- [Git Reflog](./docs/advanced-commands.md#-git-reflog)
+	- [Git Revert](./docs/advanced-commands.md#-git-revert)
+	- [Git Stash](./docs/advanced-commands.md#-git-stash)
 13. [Configurations](#-configurations)
 
 ## &#9873; Contribution
