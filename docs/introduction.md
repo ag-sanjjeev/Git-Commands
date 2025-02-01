@@ -47,6 +47,6 @@ Git is a distributed version control system. It is used to track changes and pre
 ---
 [&#8682; To Top](#-introduction)
 
-[&#10094; Previous Topic](../README.md) &emsp; [Next Topic &#10095;](./basic-repository-operations.md)
+[&#10094; Previous Topic](../README.md) &emsp; [Next Topic &#10095;](./git-ignore.md)
 
 [&#8962; Goto Home Page](../README.md)
