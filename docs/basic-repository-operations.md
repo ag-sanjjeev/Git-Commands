@@ -5,10 +5,11 @@ It describes about basic Git operation from creating an empty repository to view
 ### &#9780; Overview:
 1. [Initialize Repository](#-initialize-repository)
 2. [Staging Area](#-staging-area)
-3. [Commit Changes](#-commit-changes)
-4. [Check Status](#-check-status)
-5. [View Commit Log](#-view-commit-log)
-6. [Checkout](#-checkout)
+3. [Restore](#-restore)
+4. [Commit Changes](#-commit-changes)
+5. [Check Status](#-check-status)
+6. [View Commit Log](#-view-commit-log)
+7. [Checkout](#-checkout)
 
 ### &#10022; Initialize Repository:
 
@@ -87,6 +88,68 @@ git add --all
 
 ```bash
 git add directory-name/*
+```
+
+### &#10022; Restore:
+
+**Unstage the specific changes:**
+
+To unstages a specific file. It removes the file from the staging area (index), but the working directory remain unchanged.
+
+*Syntax:*
+
+```bash
+git restore --staged <file>
+``` 
+
+*Example:*
+
+```bash
+git restore --staged index.php
+```
+
+**Unstage all changes:**
+
+It will remove all files in the staging area (index), but the working directory remains unchanged.
+
+```bash
+git restore --staged . 
+```
+
+**Discard changes in a specific file:**
+
+It discards and removes any uncommitted changes in working directory for specified files.
+
+```bash
+git restore <file>
+```
+
+**Discard changes in all files:**
+
+```bash
+git restore . 
+```
+
+**Restore a file to a specific commit history:**
+
+It bring the specified file state on the specified commit history. 
+
+```bash
+git restore --source=<commit_hash> <file> 
+```
+
+**Restore all files to a specific commit:**
+
+```bash
+git restore --source=<commit_hash> . 
+```
+
+**Restore staged changes to the working directory:**
+
+It will bring files from staged area to working tree.
+
+```bash
+git restore --staged --worktree .
 ```
 
 ### &#10022; Commit Changes:

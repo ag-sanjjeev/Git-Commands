@@ -9,6 +9,7 @@ This repository contains list of common and useful commands used in git system.
 2. [Basic Repository Operations](./docs/basic-repository-operations.md)
 	- [Initialize Repository](./docs/basic-repository-operations.md#-initialize-repository)
 	- [Staging Area](./docs/basic-repository-operations.md#-staging-area)
+	- [Restore](./docs/basic-repository-operations.md#-restore)
 	- [Commit Changes](./docs/basic-repository-operations.md#-commit-changes)
 	- [Check Status](./docs/basic-repository-operations.md#-check-status)
 	- [View Commit Log](./docs/basic-repository-operations.md#-view-commit-log)
