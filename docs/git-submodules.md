@@ -173,6 +173,6 @@ git push origin main
 ---
 [&#8682; To Top](#-git-submodules)
 
-[&#10094; Previous Topic](./git-hooks.md) &emsp; [Next Topic &#10095;](./git-subtrees.md)
+[&#10094; Previous Topic](./git-reset.md) &emsp; [Next Topic &#10095;](./git-subtrees.md)
 
 [&#8962; Goto Home Page](../README.md)

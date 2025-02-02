@@ -141,6 +141,6 @@ git subtree pull --prefix=libs/library --onto=develop https://github.com/usernam
 ---
 [&#8682; To Top](#-git-subtrees)
 
-[&#10094; Previous Topic](./git-submodules.md) &emsp; [Next Topic &#10095;](./large-repository.md)
+[&#10094; Previous Topic](./git-submodules.md) &emsp; [Next Topic &#10095;](./advanced-commands.md)
 
 [&#8962; Goto Home Page](../README.md)

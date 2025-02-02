@@ -152,6 +152,6 @@ git reset HEAD <file>
 ---
 [&#8682; To Top](#-git-reset)
 
-[&#10094; Previous Topic](./git-objects.md) &emsp; [Next Topic &#10095;](./advanced-commands.md)
+[&#10094; Previous Topic](./git-objects.md) &emsp; [Next Topic &#10095;](./git-submodules.md)
 
 [&#8962; Goto Home Page](../README.md)

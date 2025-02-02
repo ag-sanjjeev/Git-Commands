@@ -135,6 +135,6 @@ git stash clear
 ---
 [&#8682; To Top](#-advanced-commands)
 
-[&#10094; Previous Topic](./large-repository.md) &emsp; [Next Topic &#10095;](./configurations.md)
+[&#10094; Previous Topic](./git-subtrees.md) 
 
 [&#8962; Goto Home Page](../README.md)

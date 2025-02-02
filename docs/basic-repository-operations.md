@@ -239,6 +239,6 @@ git checkout <tag_name>
 ---
 [&#8682; To Top](#-basic-repository-operations)
 
-[&#10094; Previous Topic](./introduction.md) &emsp; [Next Topic &#10095;](./branch-operations.md)
+[&#10094; Previous Topic](./git-attributes.md) &emsp; [Next Topic &#10095;](./branch-operations.md)
 
 [&#8962; Goto Home Page](../README.md)
