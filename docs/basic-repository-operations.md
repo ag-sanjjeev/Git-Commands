@@ -216,6 +216,12 @@ git shortlog
 git shortlog -s 
 ```
 
+*Check complete log with graph in oneline format:*
+
+```bash
+git log --graph --full-history --all --color --oneline
+```
+
 ### &#10022; Checkout:
 
 Git give possibilities of move to specific commit history by checkout command. It requires commit hash or tag name to move to that reference.
