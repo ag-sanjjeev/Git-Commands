@@ -10,6 +10,7 @@ It describes about basic Git operation from creating an empty repository to view
 5. [Check Status](#-check-status)
 6. [View Commit Log](#-view-commit-log)
 7. [Checkout](#-checkout)
+8. [Move or Rename](#-move-or-rename)
 
 ### &#10022; Initialize Repository:
 
@@ -234,6 +235,42 @@ git checkout <commit_hash>
 
 ```bash
 git checkout <tag_name>
+```
+
+### &#10022; Move or Rename:
+
+To track changes safely for moved or renamed files and directories. Then commit changes with message.
+
+*Syntax:*
+
+```bash
+git mv <old_file_name> <new_file_name>
+```
+
+```bash
+git mv <oldfoldername> <newfoldername>
+```
+
+*Example:*
+
+```bash
+git mv main.php Main.php
+```
+
+```bash
+git mv foldername FolderName
+```
+
+Change old folder name to new folder name that already been exist:
+
+```bash
+git mv -f oldfoldername newfoldername
+```
+
+To set as global configuration to avoid those kinds of case-insensitive violation on case-insensitive systems. This is not recommended but it is useful for some needs. To avoid conflict, don't try this configuration command.
+
+```bash
+git config --global core.ignorecase false
 ```
 
 ---
