@@ -37,6 +37,8 @@ This repository contains list of common and useful commands used in git system.
 	- [Delete a Branch](./docs/branch-operations.md#-delete-a-branch)
 6. [Remote Repository](./docs/remote-repository.md)
 	- [Add Remote](./docs/remote-repository.md#-add-remote)
+	- [Show Remote](./docs/remote-repository.md#-show-remote)
+	- [Manipulate Remote](./docs/remote-repository.md#-manipulate-remote)
 	- [Fetch Remote](./docs/remote-repository.md#-fetch-remote)
 	- [Pull Remote](./docs/remote-repository.md#-pull-remote)
 	- [Clone Repository](./docs/remote-repository.md#-clone-repository)

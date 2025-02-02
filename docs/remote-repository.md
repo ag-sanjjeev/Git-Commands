@@ -4,11 +4,13 @@ A remote repository is another repository which is running on different location
 
 ### &#9780; Overview:
 1. [Add Remote](#-add-remote)
-2. [Fetch Remote](#-fetch-remote)
-3. [Pull Remote](#-pull-remote)
-4. [Clone Repository](#-clone-repository)
-5. [Push Remote](#-push-remote)
-6. [Fork Repository](#-fork-repository)
+2. [Show Remote](#-show-remote)
+3. [Manipulate Remote](#-manipulate-remote)
+4. [Fetch Remote](#-fetch-remote)
+5. [Pull Remote](#-pull-remote)
+6. [Clone Repository](#-clone-repository)
+7. [Push Remote](#-push-remote)
+8. [Fork Repository](#-fork-repository)
 
 ### &#10022; Add Remote:
 
@@ -28,6 +30,72 @@ Where `origin` is commonly used name for the primary remote. But it allows to se
 
 ```bash
 git remote add origin https://github.com/username/repository-name.git
+```
+
+### &#10022; Show Remote:
+
+To show linked remote reference in the current repository.
+
+*Syntax:*
+
+```bash
+git remote show <remote_name>
+```
+
+*Example:*
+
+```bash
+git remote show origin
+```
+
+### &#10022; Manipulate Remote:
+
+**Rename Remote Name:**
+
+*Syntax:*
+
+```bash
+git remote rename <old> <new>
+```
+
+*Example:*
+
+```bash
+git remote rename origin github
+```
+
+**Get Remote URL:**
+
+```bash
+git remote get-url [--push] [--all] <name>
+```
+
+**Set Remote URL:**
+
+```bash
+git remote set-url [--push] <name> <newurl> [<oldurl>]
+```
+
+```bash
+git remote set-url --add <name> <newurl>
+```
+
+```bash
+git remote set-url --delete <name> <url>
+```
+
+**Remove Remote Reference:**
+
+*Syntax:*
+
+```bash
+git remote remove <remote_name>
+```
+
+*Example:*
+
+```bash
+git remote remove origin
 ```
 
 ### &#10022; Fetch Remote:
