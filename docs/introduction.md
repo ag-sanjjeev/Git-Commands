@@ -4,6 +4,7 @@ Git is a distributed version control system. It is used to track changes and pre
 ### &#9780; Overview:
 1. [Need for git](#-need-for-git)
 2. [Associated Files](#-associated-files)
+3. [Help Commands](#-help-commands)
 
 ### &#10022; Need for git:
 - Distributed means each developer can have the copy of all the files associated with repository unlike older version control system.
@@ -43,6 +44,38 @@ Git is a distributed version control system. It is used to track changes and pre
 - `.gitmodules` file: 
 	- This file is used to specify the other Git repositories as submodule within the project.
 	- It stores information about the submodules such as their paths and remote origin URLs.
+
+### &#10022; Help Commands:
+
+To view built-in documetations and help related files for git. use help command. 
+
+**Show list of commands:**
+
+```bash
+git --helps
+```
+
+**Show documetation for specific command:**
+
+*Syntax:*
+
+```bash
+git <command> --help
+```
+
+```bash
+git help <command>
+```
+
+*Example:*
+
+```bash
+git log --help
+```
+
+```bash
+git help log
+```
 
 ---
 [&#8682; To Top](#-introduction)
