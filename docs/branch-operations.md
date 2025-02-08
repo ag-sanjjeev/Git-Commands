@@ -14,6 +14,7 @@ It describes about basic Git operation from creating an empty repository to view
 7. [Merge Conflicts](#-merge-conflicts)
 8. [Rebase](#-rebase)
 9. [Delete a Branch](#-delete-a-branch)
+10. [Create an Empty Branch](#-create-an-empty-branch)
 
 ### &#10022; Create Branch:
 
@@ -236,6 +237,30 @@ git branch -d -f <branch-name>
 
 ```bash
 git push origin --delete <branch_name>
+```
+
+### &#10022; Create an Empty Branch:
+
+To create an empty branch with specific commit without history:
+
+step 1: checkout to branch or commit:
+
+```bash
+git checkout <branch_name/hash>
+```
+
+step 2: create clean empty branch
+
+```bash
+git checkout --orphan <new_branch_name>
+```
+
+This will create empty branch with clean working directory. But it has all files and directories as same as available onwards from the last commit that where checked out from. That files and directories are in stagging area.
+
+step 3: commit as a fresh commit
+
+```bash
+git commit -m 'Alpha release'
 ```
 
 ---
