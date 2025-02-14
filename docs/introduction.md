@@ -8,6 +8,7 @@ Git is a distributed version control system. It is used to track changes and pre
 4. [Configurations](#-configurations)
 5. [Git LFS](#-git-lfs)
 6. [Security Practices](#-security-practices)
+7. [Show Tree Structure](#-show-tree-structure)
 
 ### &#10022; Need for git:
 - Distributed means each developer can have the copy of all the files associated with repository unlike older version control system.
@@ -222,6 +223,30 @@ If the file is not exist on some commits that through a no file exist error. To 
 
 ```bash
 git filter-branch --force --tree-filter "sh -c 'if [ -f Configuration.php ]; then sed -i 's/old_text/new_text/g' Configuration.php; fi'" HEAD
+```
+
+### &#10022; Show Tree Structure:
+
+- list files and folders as tree in a repository:
+
+```bash
+ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+```
+
+- list files including some ignored files:
+
+```
+find . -print | grep -v '/\.' | grep -v -f <(git ls-files -c) | sed 's/[^/]*\//  |-- /g'
+```
+
+```
+find . -print | grep -v '/\.' | grep -v -f <(git ls-files -c) | grep -v -f <(git ls-files -o -i --exclude-standard) | sed 's/[^/]*\//  |-- /g'
+```
+
+- list all files in a directory as tree view with hidden files and directories:
+
+```
+find . -print | sed 's/[^/]*\//  |-- /g'
 ```
 
 ---

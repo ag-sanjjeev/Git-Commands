@@ -10,6 +10,7 @@ This repository contains list of common and useful commands used in git system.
 	- [Configurations](./docs/introduction.md#-configurations)
 	- [Git LFS](./docs/introduction.md#-git-lfs)
 	- [Security Practices](./docs/introduction.md#-security-practices)
+	- [Show Tree Structure](./docs/introduction.md#-show-tree-structure)
 2. [Git Ignore](./docs/git-ignore.md)
 	- [How it works](./docs/git-ignore.md#-how-it-works)
 	- [Ignore Specific Files](./docs/git-ignore.md#-ignore-specific-files)
