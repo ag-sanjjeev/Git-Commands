@@ -19,6 +19,7 @@ This repository contains list of common and useful commands used in git system.
 	- [Comments](./docs/git-ignore.md#-comments)
 	- [Testing Ignored Files](./docs/git-ignore.md#-testing-ignored-files)
 	- [Global Ignore File](./docs/git-ignore.md#-global-ignore-file)
+	- [If Ignore Not Work](./docs/git-ignore.md#-if-ignore-not-work)
 3. [Git Attributes](./docs/git-attributes.md)
 	- [How it Works](./docs/git-attributes.md#-how-it-works)
 	- [Text and Binary](./docs/git-attributes.md#-text-and-binary)

@@ -12,6 +12,7 @@ This is important for preventing Git from adding those files and directories tha
 5. [Comments](#-comments)
 6. [Testing Ignored Files](#-testing-ignored-files)
 7. [Global Ignore File](#-global-ignore-file)
+8. [If Ignore Not Work](#-if-ignore-not-work)
 
 ### &#10022; How it Works:
 
@@ -101,6 +102,18 @@ It it possible by set rules in separate file and configure it by following comma
 ```bash
 git config --global core.excludesfile ~/.gitignore_global
 ```
+
+### &#10022; If Ignore Not Work:
+
+If git ignore is not reflect or to ignore certain files after commit. Then clear cache in the repository and create new commit.
+
+```bash
+git rm -r --cached .
+git add .
+git commit -m 'clear git cache'
+```
+
+Push those changes to remote repository after the above command steps.
 
 ---
 [&#8682; To Top](#-git-ignore)
