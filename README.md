@@ -47,6 +47,7 @@ This repository contains list of common and useful commands used in git system.
 	- [Merge Branch](./docs/branch-operations.md#-merge-branch)
 	- [Merge Conflicts](./docs/branch-operations.md#-merge-conflicts)
 	- [Rebase](./docs/branch-operations.md#-rebase)
+	- [Undo Rebase](./docs/branch-operations.md#-undo-rebase)
 	- [Delete a Branch](./docs/branch-operations.md#-delete-a-branch)
 	- [Create an Empty Branch](./docs/branch-operations.md#-create-an-empty-branch)
 6. [Remote Repository](./docs/remote-repository.md)

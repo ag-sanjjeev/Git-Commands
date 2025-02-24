@@ -13,8 +13,9 @@ It describes about basic Git operation from creating an empty repository to view
 6. [Merge Branch](#-merge-branch)
 7. [Merge Conflicts](#-merge-conflicts)
 8. [Rebase](#-rebase)
-9. [Delete a Branch](#-delete-a-branch)
-10. [Create an Empty Branch](#-create-an-empty-branch)
+9. [Undo Rebase](#-undo-rebase)
+10. [Delete a Branch](#-delete-a-branch)
+11. [Create an Empty Branch](#-create-an-empty-branch)
 
 ### &#10022; Create Branch:
 
@@ -204,6 +205,31 @@ git rebase feature/new-login
 ```
 
 **WARNING:** Avoid `rebase` command on public branches. Because, those branches that other developers might be working on.
+
+### &#10022; Undo Rebase:
+
+After rebase on the repository, undo the rebase operation might cause problem with work flow.
+So, use with caution.
+
+**Simple Method:**
+
+When do rebase, git saves starting point of the branch to ORIG_HEAD. This command might works, when there is no commits made after rebase. 
+
+```bash
+git reset --hard ORIG_HEAD
+```
+
+**Another Method:**
+
+First, check `HEAD` count by using `reflog` command to get head count value such as `HEAD@{1}` or `HEAD@{2}` or the value required to be move on.
+
+suppose, the old commit was `HEAD@{2}` before rebase. then the reset command is,
+
+*Use with caution due to flag:hard*
+
+```bash
+git reset --hard HEAD@{2}
+```
 
 ### &#10022; Delete a Branch:
 
