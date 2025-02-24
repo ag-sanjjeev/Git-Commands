@@ -46,6 +46,7 @@ This repository contains list of common and useful commands used in git system.
 		- [Gitflow](./docs/branch-operations.md#-gitflow)
 	- [Merge Branch](./docs/branch-operations.md#-merge-branch)
 	- [Merge Conflicts](./docs/branch-operations.md#-merge-conflicts)
+	- [Squash Merge](./docs/branch-operations.md#-squash-merge)
 	- [Rebase](./docs/branch-operations.md#-rebase)
 	- [Undo Rebase](./docs/branch-operations.md#-undo-rebase)
 	- [Delete a Branch](./docs/branch-operations.md#-delete-a-branch)

@@ -12,10 +12,11 @@ It describes about basic Git operation from creating an empty repository to view
 	- [Gitflow](#-gitflow)
 6. [Merge Branch](#-merge-branch)
 7. [Merge Conflicts](#-merge-conflicts)
-8. [Rebase](#-rebase)
-9. [Undo Rebase](#-undo-rebase)
-10. [Delete a Branch](#-delete-a-branch)
-11. [Create an Empty Branch](#-create-an-empty-branch)
+8. [Squash Merge](#-squash-merge)
+9. [Rebase](#-rebase)
+10. [Undo Rebase](#-undo-rebase)
+11. [Delete a Branch](#-delete-a-branch)
+12. [Create an Empty Branch](#-create-an-empty-branch)
 
 ### &#10022; Create Branch:
 
@@ -178,6 +179,21 @@ git merge feature/new-login
 It occurs when Git cannot automatically integrate/combine changes from two branches. For example, It will occurs when the same lines of code on a file were modified in both branches.
 
 So, it requires to check and edit manually the conflicted files and choose the correct changes. Stage the resolved files and commit changes.
+
+### &#10022; Squash Merge:
+
+If it is required to merge branch with single commit history, instead of entire history after merge then use squash flag with merge. Use with caution. Because, it is not recommended mostly in real time project development. But it might be suitable for some cases such as `release` branch, `feature` branch and so on. 
+
+**Steps:**
+
+- Follow the steps as mentioned in merge, Except before merge command.
+- Use merge command with squash flag as below:
+
+```bash
+git merge --squash development
+```
+
+- Commit merge with commands
 
 ### &#10022; Rebase:
 
