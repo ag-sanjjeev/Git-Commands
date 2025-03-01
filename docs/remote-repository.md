@@ -138,6 +138,17 @@ It will pull and merge only main branch change from remote.
 git pull origin main
 ```
 
+**Git Pull with Rebase:**
+
+```bash
+git pull --rebase origin main
+```
+
+**Note:** 
+
+- Git pull will run like git fetch then git merge.
+- Git pull with rebase flag will run like git fetch then git rebase.
+
 ### &#10022; Clone Repository:
 
 It downloads a clone or a copy of the remote repository into your local device. It creates a local copy of the remote repository at the specified URL.
