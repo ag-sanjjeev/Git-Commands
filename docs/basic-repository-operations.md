@@ -153,6 +153,22 @@ It will bring files from staged area to working tree.
 git restore --staged --worktree .
 ```
 
+**Restore deleted files before checkout:**
+
+It will bring deleted files from stagging area to working tree.
+
+```bash
+git checkout filepath/filename.extension
+```
+
+**Restore all deleted files before checkout:**
+
+It will bring all deleted files from stagging area to working tree.
+
+```bash
+git checkout . 
+```
+
 ### &#10022; Commit Changes:
 
 A commit is a snapshot or history of file changes in the project at a specific point in time. 
